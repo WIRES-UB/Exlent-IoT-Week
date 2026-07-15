@@ -29,3 +29,14 @@ Create a voltage divider with the photoresistor and 10k ohm resistor, then conne
 
 
 ![Digital Theremin circuit](digital_theremin.jpg)
+
+## 4. For the Proximity Sensor based Theramin
+| Component      | Pin          | Arduino Uno    |
+| -------------- | ------------ | -------------- |
+| HC-SR04        | VCC          | 5V             |
+| HC-SR04        | GND          | GND            |
+| HC-SR04        | TRIG         | Digital pin 9  |
+| HC-SR04        | ECHO         | Digital pin 10 |
+| Passive buzzer | Positive (+) | Digital pin 3  |
+| Passive buzzer | Negative (−) | GND            |
+
